@@ -1,0 +1,6 @@
+.place__image {
+  width: 45%;
+  height: 45%;
+  max-width: 460px;
+  min-width: 320px;
+}
