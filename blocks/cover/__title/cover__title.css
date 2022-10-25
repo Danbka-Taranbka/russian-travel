@@ -15,3 +15,11 @@
   max-height: 152px;
   min-height: 70px;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin-top: calc((62.5% - 134px) / 2);
+  }
+}
