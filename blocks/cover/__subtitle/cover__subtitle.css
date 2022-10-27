@@ -3,20 +3,22 @@
   padding: 0;
   margin: auto;
   margin-top: 32px; 
+  
   max-width: 360px;
   min-width: 288px;
-  max-height: 66px;
-  min-height: 48px;
-  font-family: 'Inter-Regular';
+  
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
   color: #fff;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
+  
   position: relative;
   z-index: 1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;

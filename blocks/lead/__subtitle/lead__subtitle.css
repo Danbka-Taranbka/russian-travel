@@ -4,13 +4,14 @@
   max-width: 640px;
   min-width: 288px;
   margin-top: 32px;
-  font-family: 'Inter-Regular';
+  font-family: 'Inter';
+  font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   
   .lead__subtitle {
     max-width: 288px;

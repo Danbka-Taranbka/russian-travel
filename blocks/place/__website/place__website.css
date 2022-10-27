@@ -1,9 +1,10 @@
 .place__website {
-  width: 45%;
+  max-width: 456px;
+  min-width: 288px;
+  
   margin-bottom: 48px;
   margin-left: 40px;
-  max-width: 484px;
-  min-width: 288px;
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -23,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .place__website {
     margin-left: 28px;
   }

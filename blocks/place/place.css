@@ -2,27 +2,25 @@
   width: 100%;
   max-width: 984px;
   min-width: 320px;
+  
   margin-bottom: 80px;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: space-between;
+  align-self: center;
 }
 
 .place:last-of-type {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   
   .place {
     margin-bottom: 73px;
-    flex-direction: column;
-  }
-
-  .place:last-of-type {
-    margin-bottom: 0;
+    max-width: 720px;
   }
 }
 
@@ -31,9 +29,5 @@
   .place {
     margin-bottom: 50px;
     align-items: center;
-  }
-
-  .place:last-of-type {
-    margin-bottom: 0;
   }
 }

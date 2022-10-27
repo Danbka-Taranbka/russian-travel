@@ -1,6 +1,20 @@
 .place__url-heading {
-  font-family: 'Inter-Regular';
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.7;
   color:#AAAAAA;
+  letter-spacing: 2px;
+
+  max-width: 456px;
+  min-width: 288px;
 }
+
+
+@media screen and (max-width: 769px) {
+  .place__url-heading {
+    line-height: 1;
+  }
+}
+
+/*Отступ между place__url-heading и place__link задан в place__link.css*/

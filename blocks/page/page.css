@@ -3,14 +3,8 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   flex-direction: column;
   align-items: center;
   color: white;
 }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0;
-}
-
