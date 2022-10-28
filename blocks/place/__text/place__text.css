@@ -3,7 +3,6 @@
   padding: 0;
   margin-left: 40px;
   
-  width: 100%;
   max-width: 484px;
   min-width: 288px;
 
@@ -11,25 +10,10 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   
   .place__text  {
     margin-left: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  
-  .place__text  {
-    margin-left: 40px;
-  }
-}
-
-
-
-@media screen and (max-width: 1024px) {
-  .place__text {
-    margin-left: 28px;
     max-width: 456px;
   }
 }
@@ -37,6 +21,7 @@
 @media screen and (max-width: 769px) {
   .place__text {
     max-width: 352px;
+    margin-left: 28px;
   }
 }
 
