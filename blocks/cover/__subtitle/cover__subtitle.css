@@ -1,8 +1,8 @@
 .cover__subtitle {
   margin: 0;
   padding: 0;
-  margin: auto;
-  margin-top: 32px; 
+
+  margin-top: 32px;
   
   max-width: 360px;
   min-width: 288px;
@@ -18,10 +18,11 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;
+
     margin-top: 16px;
   }
 }
