@@ -20,10 +20,11 @@
   
   .place {
     max-width: 928px;
+    
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 928px) {
   
   .place {
     margin-bottom: 73px;
@@ -31,11 +32,25 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   
   .place {
     margin-bottom: 50px;
     justify-content: center;
-    width: 90%;
   }
 }
+
+@media screen and (max-width: 670px) {
+  
+  .place {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+/*Доработал карточку place, чтобы на промежуточных разрешениях она отображалась красиво и адекватно.
+На разрешении 670рх задал построение в колонку (переход в мобильный режим), чтобы контент не вылезал за пределы блока
+и отображался корректно*/
+
+/*Больше для улучшения работы ничего не придумал, если и это не подходит, то я даже не знаю, что делать...*/

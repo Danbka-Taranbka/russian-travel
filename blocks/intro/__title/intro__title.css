@@ -12,13 +12,13 @@
   
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
   
   .intro__title {
     font-size: 32px;
@@ -26,4 +26,8 @@
     max-width: 288px;
   }
 }
+
+/*Уменьшил все шрифты, чтобы текст не вылезал за пределы блока, тем самым создавая полосу прокрутки
+Остальным шрифтам задал такие же стили, что привело к нормальному отображению контента на всех разрешениях
+Наставник сказал, что данный метод является правильным.*/
 
